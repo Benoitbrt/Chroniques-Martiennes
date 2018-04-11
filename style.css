@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/****************************************** fin du reset **/
+
+
+body{
+	background-color: white;
+}
+
+#conteneur{
+	margin: auto;
+	height: 793px;
+	width: 604px;
+}
+
+#position{
+	position: fixed;
+	width: 100%;
+}
+
+
+
+#logo_center{
+	width: 200px;
+	margin-top: 280px;
+	margin-left: 200px;
+	display: inline-block;
+
+}
+
+#logo_center svg{
+	width: 200px;
+	/*background-color: green;*/
+}
+
+/***************************************** fin de l'index **/
+
+
+#conteneur_white{
+	margin: auto;
+	height: 793px;
+	width: 604px;
+}
+
+
+header{
+	
+	width: 98%;
+	height: 100px;
+	margin: auto;
+	/*background-color: pink;*/
+}
+
+#logo{
+	width: 75px;
+	float: right;
+	margin-top: 8px;
+	display: inline-block;
+	/*background-color: green;*/
+
+}
+
+#logo svg{
+	width: 70px;
+	position: fixed;
+	/*background-color: blue;*/
+}
+
+#infos_white h1{
+	color: black;
+	font-family: arial-black;
+	font-size: 45px;
+}
+
+#nav_white li{
+	color: black;
+	font-family: arial;
+	font-size: 20px;
+}
+
+#pages{
+	width: 50%;
+	height: 600px;
+	margin-top: 15px;
+}
+
+img{
+	margin-left: 107px;
+	height: 110%;
+	border: solid black;
+}
+
+
+
+#DMDMcontenu_fleche{
+	width: 100px;
+	height: 650px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.st0{
+	fill:#FFFFFF;
+}
+
+.DMDMdroite{
+	float: right;
+}
+
+#DMDMfleche{
+	width: 30px;
+	margin: auto;
+	margin-top: 300px;
+}
+
+/********************************************* FIN WHITE ***/
+
+
+#conteneur_black{
+	margin: auto;
+	height: 793px;
+	width: 604px;
+	background-color: black;
+}
+
+
+
+#infos_black h1{
+	color: white;
+	font-family: arial-black;
+	font-size: 45px;
+}
+
+#nav_black li{
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+}
+
+.st0_black{
+	fill:#000000;
+}
+
